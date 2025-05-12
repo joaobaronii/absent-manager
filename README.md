@@ -10,13 +10,6 @@
 - **Integração com Banco de Dados**: Armazena detalhes da disciplina (nome, carga horária, faltas, limite de faltas) em um banco PostgreSQL.
 - **Lista Visual**: Exibe as disciplinas com contagem de faltas, limite e carga horária em uma lista rolável.
 
-
-## Uso
-- **Iniciar**: Execute a classe `GUI` para abrir a aplicação.
-- **Adicionar Disciplina**: Clique em "Add Subject", insira o nome da disciplina, e a carga horária será obtida automaticamente.
-- **Gerenciar Faltas**: Selecione uma disciplina e use os botões "Missed class" para adicionar faltas ou "Remove absent" para justificar.
-- **Remover Disciplina**: Selecione uma disciplina e clique em "Remove Subject" para excluí-la.
-
 ## Estrutura do Projeto
 - **GUI.java**: Interface gráfica principal.
 - **Subject.java**: Classe que representa uma disciplina.
